@@ -215,6 +215,10 @@ body.nav-active {
 
 .w-100 {
   width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .h1,
@@ -252,6 +256,7 @@ body.nav-active {
   transition: var(--transition-1);
   will-change: transform;
   background: rgb(227, 164, 181);
+  border: 1px solid black;
 }
 
 .btn:is(:hover, :focus-visible) {
