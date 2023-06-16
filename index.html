@@ -11,7 +11,6 @@
     - primary meta tags
   -->
   <title>Sayra</title>
-  <meta name="title" content="Julia - I'm User Interface Designer & Developer.">
   <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -60,7 +59,7 @@
           <!-- <span style="--i:6">n</span> -->
           <!-- <span style="--i:7">g</span> -->
           <span style="--i:8">.</span>
-         </div>
+        </div>
         <!-- <a class="Sayra" href="#" class="logo">
           <p style="text-shadow: 2px 2px 4px #000000; transition: ;">Sayra</p>
         </a> -->
@@ -70,7 +69,7 @@
 
         <div class="navbar-top">
           <a href="#" class="logo">
-            <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Julia home">
+            <h1 style="font-family: serif; font-size: 40px; text-shadow: 4px 4px 6px rgb(32, 32, 32);">Sayra</h1>
           </a>
 
           <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -81,23 +80,23 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#home" class="navbar-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">About</a>
+            <a href="#about" class="navbar-link">About</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Projects</a>
+            <a href="education" class="navbar-link">Education</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Blog</a>
+            <a href="#blog" class="navbar-link">Blog</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="#contact" class="navbar-link">Contact</a>
           </li>
 
         </ul>
@@ -164,15 +163,12 @@
         - #HERO
       -->
 
-      <section class="section hero" aria-label="home">
+      <section class="section hero" id="home" aria-label="home">
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="./assets/images/Picsart_22-11-16_15-26-44-199.jpg" width="560" height="540" alt="Julia" class="w-100"
-              data-reveal="top">
-
-            <!-- <img src="./assets/images/hero-shape.svg" width="203" height="91" alt="250+ Projects Done" class="shape"
-              data-reveal="top" data-reveal-delay="0.25s"> -->
+            <img src="./assets/images/Picsart_22-11-16_15-26-44-199.jpg" width="560" height="540" alt="sayras"
+              class="w-100" data-reveal="top">
           </figure>
 
           <div class="hero-content">
@@ -193,7 +189,7 @@
               company.
             </p>
 
-            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay=".25s">
               <a href="#" class="btn btn-primary">See My Works</a>
 
               <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -212,7 +208,7 @@
         - #ABOUT
       -->
 
-      <section class="section about" aria-label="about">
+      <section class="section about" id="about" aria-label="about">
         <div class="container">
 
           <div class="wrapper">
@@ -363,11 +359,159 @@
       </section>
 
       <!-- 
+        -projects
+       -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top"
+            style="display: flex; align-items: center; justify-content: center; padding: 30px;">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label"
+                style="display: flex; align-items: center; justify-content: center;">Experience</h2>
+
+              <p class="section-text"
+                style="display: flex; align-items: center; justify-content: center;">
+                Check out my Experience.
+              </p>
+            </div>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: hsla(344, 53%, 62%, 1);">
+
+                <div class="card-content" data-reveal="right">
+                  <h3 class="h3 card-title">Concentrix</h3>
+
+                  <p class="card-text">
+                    Overall, the job experience at Concentrix in Bharuch seems to be mixed. Some employees have had
+                    positive experiences, while others have had negative experiences. If you are considering a job at
+                    Concentrix in Bharuch, it is important to do your research and weigh the pros and cons carefully
+                  </p>
+
+                  <a href="https://www.concentrix.com/" class="btn-text" style="color: #0d0d0d">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img
+                    src="./assets/images/Concentrix-Releases-Advanced-Biometrics-Solution-for-Secure-Work-at-Home-Environment.png.webp"
+                    style="border-radius: 20px;" width="600" height="367" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+          </ul>
+
+          <div class="title-wrapper" data-reveal="top"
+            style="display: flex; align-items: center; justify-content: center; padding: 50px;">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label" style="padding-top: 30px;display: flex; align-items: center; justify-content: center;">Education</h2>
+
+              <p class="section-text" style="display: flex; align-items: center; justify-content: center;">
+                Check out my Education.
+              </p>
+            </div>
+          </div>
+
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: hsla(344, 53%, 62%, 1);">
+
+                <div class="card-content" data-reveal="left">
+
+                  <h2 class="h3 card-title">Graduation</h2>
+                  <h3 style="color: #0d0d0d">2021-2023</h3>
+                  <br>
+
+
+                  <p class="card-text">
+                    MK Commerce College is a private college located in Bharuch, Gujarat, India. It was founded in 1967
+                    by the Shri S'ad Vidya Mandal, a charitable trust. The college offers undergraduate and postgraduate
+                    courses in commerce, including B.Com, M.Com, and MBA. It also offers a diploma in computer
+                    applications.
+                  </p>
+
+                  <a href="https://www.mkccollege.ac.in/" target="_blank" class="btn-text" style="color: #0d0d0d">
+                    <span class="span">Learn More.</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/CalStateLA-1024x683.jpg" style="border-radius: 20px;" width="650"
+                    height="370" loading="lazy" alt="college photo" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: hsla(344, 53%, 62%, 1);">
+
+                <div class="card-content" data-reveal="right">
+                  <h3 class="h3 card-title">High-school</h3>
+
+                  <p class="card-text">
+                    The Palej High School is a private high school located in Palej, Gujarat, India. It was founded in
+                    1933 by the Shri Palej Sarvajanik High School Mandal, a charitable trust.
+                    <br>
+                    The school has a strong focus on extracurricular activities, and its students participate in a wide
+                    range of sports, cultural, and academic events. The school also has a strong alumni network, which
+                    provides support and guidance to its students.
+                  </p>
+
+                  <a href="https://www.justdial.com/Bharuch/The-Palej-High-School-Near-Kapasiya-Hall-Palej-Bharuch/9999P2642-2642-131230202524-B1L7_BZDET"
+                    class="btn-text" style="color: #0d0d0d">
+                    <span class="span">Learn More</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg" style="border-radius: 20px;"
+                    width="600" height="367" loading="lazy" alt="Web Design" class="w-100">
+                </figure>
+
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- 
         - #CONTACT
       -->
 
       <section class="section contact" id="contact" aria-label="contact">
-        <div class="container">
+        <div class="container contact">
+          <div class="title-wrapper" data-reveal="top"
+            style="display: flex; align-items: center; justify-content: center;">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label" style="padding-bottom: 50px;">Contact Form</h2>
+
+            </div>
+
+            <!-- <a href="#" class="btn btn-secondary">Education</a> -->
+
+          </div>
 
           <div class="contact-card">
 

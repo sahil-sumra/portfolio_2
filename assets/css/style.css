@@ -210,7 +210,7 @@ body.nav-active {
 }
 
 .section {
-  padding-block: var(--section-padding);
+  padding-block: 30px;
 }
 
 .w-100 {
@@ -896,7 +896,7 @@ textarea.input-field {
   .project-card-1,
   .project-card-2 {
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex;
   }
 
   :is(.project-card-1, .project-card-2) .card-content {
