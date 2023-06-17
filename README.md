@@ -6,6 +6,5 @@
 <img alt="Coder" align="right" width="auto"
      src= "/assets/images/desktop.png">
      
-  <a href="    # https://sahil-sumra.github.io/portfolio_2/ 
-" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="@sahil5581" height="30" width="40" /></a>
+  <a href="https://sahil-sumra.github.io/portfolio_2/"  target="blank"> <h2 align="center"> ➥ Live Demo </h2> </a>
 
