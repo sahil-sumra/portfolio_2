@@ -9,10 +9,11 @@
    
 
    
-   <a href="https://sahil-sumra.github.io/portfolio_2/" target="blank" style="text-size= 100px">➥ Live Demo </a>
-   
      
-  <a href="https://sahil-sumra.github.io/portfolio_2/"  target="blank"> <h2 align="center"> ➥ Live Demo </h2> </a>
+     
+  <h2 align="center"> ➥ Live Demo </h2> </a>
+   <a href="https://sahil-sumra.github.io/portfolio_2/" target="blank" align="center" >➥ click here</a>
+
   
   ### License
   
