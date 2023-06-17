@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div align="center">
+    #Sayra - Portfolio Website
   
+    A fully responsive personal portfolio website, Responsive for all devices, build using HTML, CSS, and JavaScript.
   
-    <h2 align="center">Sayra - Portfolio Website</h2>
-  
-    A fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-  
-    <a href="https://sahil-sumra.github.io/portfolio_2/"><strong>➥ Live Demo</strong></a>
-  
-  </div>
-</body>
-</html>
+    # https://sahil-sumra.github.io/portfolio_2/ ➥ Live Demo
 
 
 ### Demo Screenshot
