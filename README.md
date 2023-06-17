@@ -4,4 +4,4 @@
 </h3>
 
 <img alt="Coder" align="right" width="400"
-     src= "./assets/images/desktop.png">
+     src= "/assets/images/desktop.png">
