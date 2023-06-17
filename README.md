@@ -1,4 +1,12 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div align="center">
   
   
     <h2 align="center">Sayra - Portfolio Website</h2>
@@ -8,6 +16,9 @@
     <a href="https://sahil-sumra.github.io/portfolio_2/"><strong>➥ Live Demo</strong></a>
   
   </div>
+</body>
+</html>
+
 
 ### Demo Screenshot
 
